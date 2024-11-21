@@ -2,6 +2,8 @@
   "name": "change-case",
   "displayName": "changeCase",
   "description": "Two additional commands for capitalizing or lowercasing the character at the cursor",
+  "publisher": "bs-code",
+  "repository": "https://github.com/FloppyDisco/change-case",
   "version": "0.0.1",
   "icon": "image.png",
   "engines": {

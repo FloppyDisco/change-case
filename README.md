@@ -2,7 +2,7 @@
 
 ChangeCase provides two new commands:
 
-- **(^U)** `upperCaseNext`
+- **(^U)** `uppercaseNext`
 
 - **(^L)** `lowercaseNext`
 
