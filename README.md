@@ -1,6 +1,5 @@
-# ChangeCase
-
-ChangeCase provides two new commands:
+# Change Next Char
+Provides two new commands:
 
 - **(^U)** `uppercaseNext`
 
