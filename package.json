@@ -1,0 +1,57 @@
+{
+  "name": "change-case",
+  "displayName": "changeCase",
+  "description": "Two additional commands for capitalizing or lowercasing the character at the cursor",
+  "version": "0.0.1",
+  "icon": "image.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "changeCase.upcaseNext",
+        "title": "upcaseNextCharacter"
+      },
+      {
+        "command": "changeCase.lowercaseNext",
+        "title": "lowercaseNextCharacter"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "win+u",
+        "mac": "ctrl+u",
+        "command": "changeCase.upcaseNext",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "win+l",
+        "mac": "ctrl+l",
+        "command": "changeCase.lowercaseNext",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.95.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
