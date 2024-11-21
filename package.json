@@ -1,7 +1,7 @@
 {
-  "name": "change-case",
+  "name": "change-case-next",
   "displayName": "changeCase",
-  "description": "Two additional commands for capitalizing or lowercasing the character at the cursor",
+  "description": "Two additional commands for capitalizing or lowercasing the next character after the cursor",
   "publisher": "bs-code",
   "repository": "https://github.com/FloppyDisco/change-case",
   "version": "0.0.1",
